@@ -17,9 +17,7 @@
 
 <body>
 
-    <header>
-        Sono header
-    </header>
+    @include('partials.header')
 
     <main>
         @yield('content')

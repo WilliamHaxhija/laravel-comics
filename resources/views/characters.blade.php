@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    comics page
+    characters page
 @endsection

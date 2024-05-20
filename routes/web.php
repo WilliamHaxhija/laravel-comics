@@ -20,5 +20,10 @@ Route::get('/', function () {
         'coimics' => $comics
     ];
     return view('comics', $data);
-});
+})->name('comics');
+
+
+Route::get('/characters', function() {
+    return view('characters');
+})->name('characters');
 
