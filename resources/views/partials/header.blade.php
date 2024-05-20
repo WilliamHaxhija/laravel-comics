@@ -1,4 +1,4 @@
-<header class="py-3">
+<header>
     <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
             <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
@@ -8,8 +8,8 @@
                 <li>
                     <a href="{{ route('characters')}}">CHARACTERS</a>
                 </li>
-                <li>
-                    <a href="{{ route('comics')}}" class="active">COMICS</a>
+                <li class="active">
+                    <a href="{{ route('comics')}}">COMICS</a>
                 </li>
                 <li>
                     <a href="{{ route('movies')}}">MOVIES</a>
