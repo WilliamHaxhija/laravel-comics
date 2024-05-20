@@ -1,0 +1,6 @@
+@use './partials/variables' as *;
+@import '~bootstrap/scss/bootstrap';
+
+header {
+    color: $brand-primary;
+}
