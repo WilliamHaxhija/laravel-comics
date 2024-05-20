@@ -2,3 +2,16 @@
 @use './partials/header.scss';
 @use './partials/hero.scss';
 @import '~bootstrap/scss/bootstrap';
+
+section.cards {
+    .single-card {
+        color: white;
+
+        img {
+            width: 100%;
+            height: 179px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+    }
+}
