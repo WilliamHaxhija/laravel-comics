@@ -1,6 +1,7 @@
 @use './partials/variables' as *;
 @use './partials/header.scss';
 @use './partials/hero.scss';
+@use './partials/footer.scss';
 @import '~bootstrap/scss/bootstrap';
 
 section.cards {
@@ -17,6 +18,7 @@ section.cards {
         position: absolute;
         left: 0;
         top: -1.5rem;
+        cursor: pointer;
     }
 
     button {
@@ -36,12 +38,18 @@ section.cards {
 
     .single-card {
         color: white;
+        cursor: pointer;
 
         img {
             width: 100%;
             height: 179px;
             object-fit: cover;
             margin-bottom: 1rem;
+        }
+
+        &:hover {
+            opacity: 0.7;
+            transition: 0.2s;
         }
     }
 }
